@@ -5,14 +5,13 @@ Why?
     - Use as a later reference to create the same project in c++  
   
 Project Structure:  
-neural-network-from-scratch/  
-├─ .gitignore  
-├─ README.md  
-├─ requirements.txt  
-├─ src/  
-│  └─ mnist_nn.py        # main script (forward/backward/train/eval)  
-├─ data/                 # (auto-downloaded by Keras)  
-└─ .venv/                # (not committed)  
+neural-network-from-scratch/    
+├── data  
+├── README.md  
+├── requirements.txt  
+└── src  
+    ├── __init__.py  
+    └── mnist_nn.py  
   
 Requirements:  
     numpy==2.3.4  
